@@ -360,7 +360,7 @@ margin:0
   margin-bottom:30px
 }
 }
-@media (max-width:500px)
+@media (max-width:767px)
 {
 .site-footer
 {
@@ -433,7 +433,7 @@ background-color:#007bb6
 {
 background-color:#ea4c89
 }
-@media (max-width:767px)
+@media (max-width:500px)
 {
 .social-icons li.title
 {

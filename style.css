@@ -560,6 +560,39 @@ scroll-behavior: smooth;
   color: #3366cc;
   text-decoration: none;
 }
+@media screen and (max-width: 575px) {
+  .card-img{
+    border-radius: 15px;
+    border-color: transparent ;
+    display: flex;
+    width: calc(90vw - 10px);
+    max-width: 10000px;
+    height: auto;
+    border: 200pc ;
+    background-color:transparent;
+    background: transparent;
+  
+  }
+  .container{
+   
+    border-radius: 15px;
+    border-color: transparent ;
+    display: flex;
+    width: calc(90vw);
+    max-width: 10000px;
+    height: auto;
+    border: 200pc ;
+    background-color:transparent;
+    background: transparent;
+  }
+  .navtag{
+    transform: translate(3%)translateY(-20%);
+    padding-bottom: 1px;
+    color: #fffcfc;
+  
+  
+  }
+  
 @media screen and (max-width: 500px) {
 
   h2 {
@@ -674,52 +707,8 @@ scroll-behavior: smooth;
   .button:hover .box:before {
     transform: translateY(0);
   }
-  .card{
-
-    display: grid;
-    top: 10px;
-    display:flex;
-    flex-wrap: wrap;
-    padding: 1%  1%;
-    justify-content:center; 
-    align-items:center;
-    position: relative;
-    border: transparent ;
-    background-color:transparent;
+ 
   
   
-  }
-  .card-img{
-    border-radius: 15px;
-    border-color: transparent ;
-    display: flex;
-    width: calc(60vw - 10px);
-    max-width: 10000px;
-    height: auto;
-    border: 200pc ;
-    background-color:transparent;
-    background: transparent;
-  
-  }
-  .container{
-   
-    border-radius: 15px;
-    border-color: transparent ;
-    display: flex;
-    width: calc(90vw);
-    max-width: 10000px;
-    height: auto;
-    border: 200pc ;
-    background-color:transparent;
-    background: transparent;
-  }
-  .navtag{
-    transform: translate(3%)translateY(-20%);
-    padding-bottom: 1px;
-    color: #fffcfc;
-
-
-  }
-  
-  
+}
 }

@@ -6,6 +6,17 @@ Personal site
 - **Alens Evra** - <evraa1@tcnj.edu>
 - List your most recent changes at the top.
 - Older changes fall to the bottom.
+
+### 11/27/23 - NEWEST
+-<index.html>
+- Better responsive design implemented
+   -Improved spacing between paragraphs
+   -Cleaned the look of the about page
+-<contact.html>
+- clickable email icon 
+-<projects.html>
+- More precise responisive implementation 
+
 ### 11/21/23 - NEWEST
 -<index.html>
 - New resume - with native html host 

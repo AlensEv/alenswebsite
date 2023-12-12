@@ -508,6 +508,11 @@ body {
   bottom: 20px;
   border-radius: 50px;
   cursor: pointer;
+  margin: 0;
+  position: absolute;
+  
+  left: 50%;
+  transform: translate(-50%, -50%);
   
 }
 .scroll-down::before,
@@ -524,6 +529,7 @@ body {
   border-top: transparent;
   border-left: transparent;
   animation: scroll-down 2.4s ease-in-out infinite;
+  
 }
 .scroll-down::before {
   
@@ -550,6 +556,9 @@ body {
     opacity: 0;
   }
 }
+
+
+
 
 /* Iconify Icon Styles */
 .iconify-icon {
